@@ -1,4 +1,4 @@
-##虚拟机
+## 虚拟机
 
 虚拟机安装教程 [https://classroom.udacity.com/courses/ud197/lessons/3423258756/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0](https://classroom.udacity.com/courses/ud197/lessons/3423258756/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0)
 
@@ -18,7 +18,7 @@
 
 虚拟机的 `/vagrant` 目录中的文件，与计算机的 vagrant 文件夹共享。但是虚拟机中的其他数据并不会。例如：PostgreSQL 数据库本身只存在与虚拟机中。
 
-##运行 forum.py 
+## 运行 forum.py 
 
 ![gif](show_forum.gif)
 
