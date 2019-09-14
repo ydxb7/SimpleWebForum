@@ -13,3 +13,7 @@ CREATE TABLE users ( username TEXT,
 					 id SERIAL,
 					 passwd TEXT);
 
+insert into users (username, touxiang, passwd) values ('Alex', '1.jpeg', 'passwordAlex');
+insert into users (username, touxiang, passwd) values ('Emily', '2.jpeg', 'passwordEmily');
+insert into users (username, touxiang, passwd) values ('Lily', '3.jpeg', 'passwordLily');
+insert into users (username, touxiang, passwd) values ('Tom', '4.jpeg', 'passwordTom');

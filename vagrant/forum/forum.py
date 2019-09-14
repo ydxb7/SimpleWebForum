@@ -91,9 +91,9 @@ def View(env, resp):
     
     def robot(curr_idx, d, posts):
         if curr_idx not in d:
-            ans = POST_0 % posts[curr_idx][1:] + POST_1 % posts[curr_idx]
+            ans = POST_0 % posts[curr_idx] + POST_1 % posts[curr_idx]
             return ans
-        temp = POST_0 % posts[curr_idx][1:]
+        temp = POST_0 % posts[curr_idx]
         for nxt_idx in d[curr_idx]:
             temp += robot(nxt_idx, d, posts)
             

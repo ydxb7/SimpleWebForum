@@ -23,3 +23,5 @@
 `vagrant@vagrant-ubuntu-trusty-32:~$ cd /vagrant/forum/`
 
 用浏览器登陆 `http://localhost:8000/` 就可以访问了。
+
+`forum.sql`: 用来创建数据库和table，并 insert 一些 user 数据
