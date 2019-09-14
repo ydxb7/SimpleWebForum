@@ -5,7 +5,7 @@
 
 材料文件的 vagrant 子目录中，运行命令 `vagrant up`
 
-**登录 Linux 虚拟机**: 运行 `vagrant ssh` 
+**登录 Linux 虚拟机**: 在 vagrant 子目录中运行 `vagrant ssh` 
 
 **运行数据库**: PostgreSQL 数据库服务器将自动在虚拟机中启动。你可以使用 `psql` 命令行, `Ctrl-D`退出
 
@@ -18,10 +18,12 @@
 虚拟机的 `/vagrant` 目录中的文件，与计算机的 vagrant 文件夹共享。但是虚拟机中的其他数据并不会。例如：PostgreSQL 数据库本身只存在与虚拟机中。
 
 ##运行 forum.py 
+![gif](show_forum.gif)
 
-开启虚拟机，在虚拟机终端：
-`vagrant@vagrant-ubuntu-trusty-32:~$ cd /vagrant/forum/`
+开启虚拟机后，在虚拟机终端：
 
-用浏览器登陆 `http://localhost:8000/` 就可以访问了。
+- `vagrant@vagrant-ubuntu-trusty-32:~$ cd /vagrant/forum/`
+- `python forum.py `
+- 用浏览器登陆 `http://localhost:8000/` 就可以访问了。
 
 `forum.sql`: 用来创建数据库和table，并 insert 一些 user 数据
